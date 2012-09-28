@@ -23,5 +23,8 @@ class TestReverse(unittest.TestCase):
                          '.tnempoleveD nevirD-tseT fo ecnatsni lufesu '
                          'a si sihT')
 
+    def test_busters(self):
+        self.assertEqual(reverse_str('busters'), 'sretsub')
+
 if __name__ == '__main__':
     unittest.main()
